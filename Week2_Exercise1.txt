@@ -1,0 +1,33 @@
+1. // rumus newton: resultan gaya = m x a
+    STORE "RES_GAYA" // tentukan variabel untuk resultan gaya
+    STORE "M" with 600 // tentukan massa benda
+    STORE "A" with 2 // tentukan percepatan benda
+
+    CALCULATE "M" times "A"
+    SET "RES_GAYA" with calculation result
+
+    DISPLAY "RES_GAYA"
+
+2.  STORE "YEAR" with any value
+    IF (YEAR % 4 == 0) && (YEAR % 100 != 0) THEN
+        DISPLAY "KABISAT"
+
+    ELSE IF (YEAR % 4 == 0) && (YEAR % 100 == 0) && (YEAR % 400 == 0) THEN
+        DISPLAY "KABISAT"
+    ELSE
+        DISPLAY "NOT_KABISAT"
+    END IF
+
+3.  STORE "PAKAIAN" with 0
+    WHILE "PAKAIAN" < 20
+
+    DO (PAKAIAN + 1)
+
+    RETURN "PAKAIAN"
+
+4.  STORE "SISWA" with 0
+    WHILE "SISWA" < 40
+
+    DO (SISWA + 1)
+
+    RETURN "SISWA"
