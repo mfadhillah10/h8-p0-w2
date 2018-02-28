@@ -8,73 +8,73 @@ switch
     (bulan) {
     case 1:
     {
-    console.log('Januari');
+    bulan = 'Januari';
     break;
     }
 
     case 2:
     {
-    console.log('Februari');
+    bulan = 'Februari';
     break;
     }
 
     case 3:
     {
-    console.log('Maret');
+    bulan = 'Maret';
     break;
     }
 
     case 4:
     {
-    console.log('April');
+    bulan = 'April';
     break;
     }
 
     case 5:
     {
-    console.log('Mei');
+    bulan = 'Mei';
     break;
     }
 
     case 6:
     {
-    console.log('Juni');
+    bulan = 'Juni';
     break;
     }
 
     case 7:
     {
-    console.log('Juli');
+    bulan = 'Juli';
     break;
     }
 
     case 8:
     {
-    console.log('Agustus');
+    bulan = 'Agustus';
     break;
     }
 
     case 9:
     {
-    console.log('September');
+    bulan = 'September';
     break;
     }
 
     case 10:
     {
-    console.log('Oktober');
+    bulan = 'Oktober';
     break;
     }
 
     case 11:
     {
-    console.log('November');
+    bulan = 'November';
     break;
     }
 
     case 12:
     {
-    console.log('Desember');
+    bulan = 'Desember';
     break;
     }
 
