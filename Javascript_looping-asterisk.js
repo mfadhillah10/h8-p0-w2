@@ -17,7 +17,7 @@ for (jj = 0; jj < 5; jj++){
 
 // 3.
 var bintang = '';
-for (j = 0; j < 5; j++){
+for (j = 0; j < 6; j++){
   for (k = 0; k < j; k++){
         bintang += '*';
   }
