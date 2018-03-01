@@ -8,73 +8,73 @@ switch
     (bulan) {
     case 1:
     {
-    bulan = 'Januari';
+    bulan = (tanggal + ' Januari ' + tahun);
     break;
     }
 
     case 2:
     {
-    bulan = 'Februari';
+    bulan = (tanggal + ' Februari ' + tahun);
     break;
     }
 
     case 3:
     {
-    bulan = 'Maret';
+    bulan = (tanggal + ' Maret ' + tahun);
     break;
     }
 
     case 4:
     {
-    bulan = 'April';
+    bulan = (tanggal + ' April ' + tahun);
     break;
     }
 
     case 5:
     {
-    bulan = 'Mei';
+    bulan = (tanggal + ' Mei ' + tahun);
     break;
     }
 
     case 6:
     {
-    bulan = 'Juni';
+    bulan = (tanggal + ' Juni ' + tahun);
     break;
     }
 
     case 7:
     {
-    bulan = 'Juli';
+    bulan = (tanggal + ' Juli ' + tahun);
     break;
     }
 
     case 8:
     {
-    bulan = 'Agustus';
+    bulan = (tanggal + ' Agustus ' + tahun);
     break;
     }
 
     case 9:
     {
-    bulan = 'September';
+    bulan = (tanggal + ' September ' + tahun);
     break;
     }
 
     case 10:
     {
-    bulan = 'Oktober';
+    bulan = (tanggal + ' Oktober ' + tahun);
     break;
     }
 
     case 11:
     {
-    bulan = 'November';
+    bulan = (tanggal + ' November ' + tahun);
     break;
     }
 
     case 12:
     {
-    bulan = 'Desember';
+    bulan = (tanggal + ' Desember ' + tahun);
     break;
     }
 
