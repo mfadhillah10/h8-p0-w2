@@ -1,7 +1,7 @@
 //Membuat format date
 
 var tanggal = 10;
-var bulan = 13;
+var bulan = 4;
 var tahun = 1995;
 
 switch
