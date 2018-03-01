@@ -1,86 +1,87 @@
 //Membuat format date
 
 var tanggal = 10;
-var bulan = 4;
+var bulan = 13;
 var tahun = 1995;
 
 switch
     (bulan) {
     case 1:
     {
-    bulan = (tanggal + ' Januari ' + tahun);
+    bulan = ' Januari '
     break;
     }
 
     case 2:
     {
-    bulan = (tanggal + ' Februari ' + tahun);
+    bulan = ' Februari '
     break;
     }
 
     case 3:
     {
-    bulan = (tanggal + ' Maret ' + tahun);
+    bulan = ' Maret '
     break;
     }
 
     case 4:
     {
-    bulan = (tanggal + ' April ' + tahun);
+    bulan = ' April '
     break;
     }
 
     case 5:
     {
-    bulan = (tanggal + ' Mei ' + tahun);
+    bulan = ' Mei '
     break;
     }
 
     case 6:
     {
-    bulan = (tanggal + ' Juni ' + tahun);
+    bulan = ' Juni '
     break;
     }
 
     case 7:
     {
-    bulan = (tanggal + ' Juli ' + tahun);
+    bulan = ' Juli '
     break;
     }
 
     case 8:
     {
-    bulan = (tanggal + ' Agustus ' + tahun);
+    bulan = ' Agustus '
     break;
     }
 
     case 9:
     {
-    bulan = (tanggal + ' September ' + tahun);
+    bulan = ' September '
     break;
     }
 
     case 10:
     {
-    bulan = (tanggal + ' Oktober ' + tahun);
+    bulan = ' Oktober ';
     break;
     }
 
     case 11:
     {
-    bulan = (tanggal + ' November ' + tahun);
+    bulan = ' November '
     break;
     }
 
     case 12:
     {
-    bulan = (tanggal + ' Desember ' + tahun);
+    bulan = ' Desember '
     break;
     }
 
     default:
     {
-    console.log('Tidak ada bulan ke-13!');
+    console.log('Tidak ada bulan lebih dari 12!');
     break;
     }
 }
+console.log(tanggal + bulan + tahun);
